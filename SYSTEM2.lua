@@ -111,12 +111,12 @@ AddButton(TeleportsTab, {Name = "Aeroporto", Callback = function() game.Players.
 
 -- Criando a aba "Info" (sempre embaixo de todas as abas)
 local InfoTab = MakeTab({Name = "Info"})
-AddSection(InfoTab, {"Hub Info"})
+AddSection(InfoTab, {"Hub Info:"})
 AddSection(InfoTab, {"Hub Name: 🎩 SYSTEM HUB ⚙️"})
 AddSection(InfoTab, {"Creator: System"})
 AddSection(InfoTab, {"Community: System Hub Community"})
 AddSection(InfoTab, {"Hub Version: V 1.1"})
-AddSection(InfoTab, {"User Info"})
+AddSection(InfoTab, {"User Info:"})
 local userName = game.Players.LocalPlayer.Name
 local userId = game.Players.LocalPlayer.UserId
 AddSection(InfoTab, {"Nick: " .. userName})
