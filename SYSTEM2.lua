@@ -22,7 +22,7 @@ MakeWindow({
 
 -- Botão para minimizar o hub com a imagem fornecida
 MinimizeButton({
-  Image = "https://create.roblox.com/store/asset/14544665476/Hat-with-Wings?keyword=cartola&pageNumber=3&pagePosition=23", -- Link da imagem
+  Image = "rbxassetid://116156830177501", -- Link da imagem
   Size = {40, 40},
   Color = Color3.fromRGB(10, 10, 10),
   Corner = true,
