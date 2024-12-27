@@ -4,8 +4,8 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/Systeam3214/REDZHUBV
 -- Criando o hub principal com sistema de chave
 MakeWindow({
   Hub = {
-    Title = "🎩 SYSTEM HUB | V 1.1 ⚙️",
-    Animation = "by : System Hub"
+    Title = " SYSTEM HUB | V 1.1 ",
+    Animation = "by : System Community"
   },
   Key = {
     KeySystem = true, -- Sistema de chave ativado
