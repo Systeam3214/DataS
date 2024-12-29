@@ -23,7 +23,7 @@ MakeWindow({
 -- Botão para minimizar o hub com a imagem fornecida
 MinimizeButton({
   Image = "rbxassetid://116156830177501", -- Link da imagem
-  Size = {40, 40},
+  Size = {30, 30},
   Color = Color3.fromRGB(10, 10, 10),
   Corner = true,
   Stroke = true,
