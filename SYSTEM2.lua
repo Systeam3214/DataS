@@ -1,3 +1,4 @@
+--Copyright 2025 © By System Hub Community|All Rights Reserved
 -- Carregar a library do hub
 loadstring(game:HttpGet(("https://raw.githubusercontent.com/Systeam3214/REDZHUBV2/refs/heads/main/REDZHUBV2.lua")))()
 
@@ -122,4 +123,9 @@ local userId = game.Players.LocalPlayer.UserId
 AddSection(InfoTab, {"Nick: " .. userName})
 AddSection(InfoTab, {"ID: " .. userId})
 AddSection(InfoTab, {"Status: Admin"})
---Copyright 2025 © By System Hub Community
+--Copyright 2025 © By System Hub Community|All Rights Reserved
+--[[
+Copyright © 2025 By System Hub Community. All rights reserved.
+This script is protected under copyright law. Any modification, reproduction, or unauthorized distribution of this code is strictly prohibited without prior written permission.
+Violators will be subject to legal action to the fullest extent permitted by law.
+]]
