@@ -40,7 +40,7 @@ AddSection(Inicio, {"O Abuso Deste Script Resultará Em Banimento Do Grupo!"})
 local HouseTab = MakeTab({Name = "House"})
 AddSection(HouseTab, {"Banimento"})
 AddButton(HouseTab, {
-  Name = "Auto UnBan",
+  Name = "Anti Ban (No Anti Kill)",
   Callback = function()
     local bannedLots = game:GetService("ReplicatedStorage"):FindFirstChild("BannedLots")
     if bannedLots then
