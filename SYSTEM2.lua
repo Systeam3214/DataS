@@ -122,3 +122,4 @@ local userId = game.Players.LocalPlayer.UserId
 AddSection(InfoTab, {"Nick: " .. userName})
 AddSection(InfoTab, {"ID: " .. userId})
 AddSection(InfoTab, {"Status: Admin"})
+--Copyright 2025 © By System Hub Community
