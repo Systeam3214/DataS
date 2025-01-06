@@ -34,7 +34,7 @@ MinimizeButton({
 local Inicio = MakeTab({Name = "Início"})
 AddSection(Inicio, {"Ei! Administrador"})
 AddSection(Inicio, {"Lembre-se, Use Este Hub Com Respeito e Ética."})
-AddSection(Inicio, {"O Abuso Deste Script Resultará Em Banimento Do Hub!"})
+AddSection(Inicio, {"O Abuso Deste Script Resultará Em Banimento Do Grupo!"})
 
 -- Criando a aba "House"
 local HouseTab = MakeTab({Name = "House"})
@@ -47,13 +47,13 @@ AddButton(HouseTab, {
       bannedLots:Destroy()
       MakeNotifi({
         Title = "🎩 SYSTEM HUB⚙️",
-        Text = "Auto UnBan realizado com sucesso.",
+        Text = "Auto UnBan Executado.",
         Time = 5
       })
     else
       MakeNotifi({
         Title = "🎩 SYSTEM HUB⚙️",
-        Text = "Nenhuma pasta 'BannedLots' encontrada.",
+        Text = "Ação Indisponível.",
         Time = 5
       })
     end
@@ -70,7 +70,7 @@ AddButton(TrollTab, {
     game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = sofaPos
     MakeNotifi({
       Title = "🎩 SYSTEM HUB⚙️",
-      Text = "Você foi teleportado para o sofá.",
+      Text = "Sucesso!",
       Time = 5
     })
   end
@@ -84,7 +84,7 @@ AddButton(ScriptsTab, {
   Callback = function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
     MakeNotifi({
-      Title = "Sistema",
+      Title = "Sistema:",
       Text = "Infinit Yield Executado.",
       Time = 5
     })
